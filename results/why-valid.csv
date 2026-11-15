@@ -1,0 +1,8 @@
+id,family,text,state,intent,reason,sentence,same_in_two_states
+v05,valid,robot 3 forward,person,forward,not_permitted,Person 1.1 m ahead; stopped. Ask supervisor to clear.,False
+v06,valid,robot 3 move forward,person,forward,not_permitted,Person 1.1 m ahead; stopped. Ask supervisor to clear.,False
+v15,valid,robot 3 turn left,person,turn_left,not_permitted,Person 1.1 m ahead; stopped. Ask supervisor to clear.,False
+v20,valid,robot 3 carry green crate,carrying,carry,not_possible,Already holding blue pallet; wait until unloading finishes.,False
+v21,valid,robot 3 carry blue pallet,person,carry,not_permitted,Person 1.1 m ahead; stopped. Ask supervisor to clear.,False
+v25,valid,robot 3 make green crate,busy2,make,not_possible,"Conveyor 2 busy with robot 1, 40 s; please wait.",False
+v26,valid,robot 3 make green crate,down2,make,not_possible,Conveyor 2 out of service; wait for repair.,False

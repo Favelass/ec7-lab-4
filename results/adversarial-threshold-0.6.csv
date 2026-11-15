@@ -1,0 +1,7 @@
+set,threshold,family,n,intent_accuracy,decision_accuracy,wrong_actions,refusals,latency_ms_median,latency_ms_p90,forbidden
+adversarial,0.6,all,40,1.0,1.0,0,0,0.607,0.924,0
+adversarial,0.6,out_of_scope,8,1.0,1.0,0,0,0.815,1.017,0
+adversarial,0.6,ambiguous,8,1.0,1.0,0,0,0.646,0.814,0
+adversarial,0.6,other_robot,8,1.0,1.0,0,0,0.001,0.002,0
+adversarial,0.6,world_decides,8,1.0,1.0,0,0,0.859,0.924,0
+adversarial,0.6,half_wake,8,1.0,1.0,0,0,0.001,0.001,0
